@@ -1,0 +1,5 @@
+print("Введите рост человека")
+height = float(input())
+print("Введите его вес")
+weight = float(input())
+print("ИНдекс массы тела:",round(weight/(height*height),3))
