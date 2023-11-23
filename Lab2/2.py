@@ -2,13 +2,13 @@ num1 = input("Введите первое число")
 num2 = input("Введите второе число")
 sum1 = len(num1)
 sum2 = len(num2)
-if(num1[0]=='-'):
-    sum1-=1
-if(num2[0]=='-'):
-    sum2-=1
-if(num1>num2):
+if (num1[0] == '-'):
+    sum1 -= 1
+if (num2[0] == '-'):
+    sum2 -= 1
+if (num1 > num2):
     print("перове число имеет больше цифр")
-elif(num1>num2):
+elif (num1 > num2):
     print("второе число имеет больше цифр")
 else:
     print("оба число имеет одинаковое количество цифр")

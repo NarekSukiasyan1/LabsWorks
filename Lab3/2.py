@@ -10,10 +10,9 @@ def GCD(num1, num2):
             gcd = i 
     return gcd 
 
+num1 = int(input("Введите первое число:"))
+num2 = int(input("Введите второе число:"))
 try:
-    num1 = int(input("Введите первое число:"))
-    num2 = int(input("Введите второе число:"))
-
     print("GCD:", GCD(num1, num2))
     print("Math.gcd:", math.gcd(num1, num2))
 except:

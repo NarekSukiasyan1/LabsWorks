@@ -11,17 +11,17 @@ while (True):
     if (b != 1 | b != 2 | b != 3):
         print("Недопустимое число, попробуйте снова")
         continue
-    a-=b
+    a -= b
     print("Осталось ", a, "камней")
-    if(a==1):
+    if (a == 1):
         print("Вы победили")
         break
-    c = random.randint(1,3)
-    if(c>=a):
-        c-=1
-        if(c>=a):
-            c-=1
-    a-=c
-    if(a==1):
+    c = random.randint(1, 3)
+    if (c >= a):
+        c -= 1
+        if (c >= a):
+            c -= 1
+    a -= c
+    if (a == 1):
         print("Вы проиграли")
         break
